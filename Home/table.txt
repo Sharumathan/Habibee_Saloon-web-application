@@ -1,0 +1,2 @@
+create table hairstyles(image varchar(150),price int,styleName varchar(50),description varchar(200),stylistName varchar(50),ageLimit varchar(10),totalBooked varchar(10));
+create table orderList(serviceName varchar(30), price int , customerName varchar(30),customerMail varchar(30),employeeName varchar(30),sendDate varchar(50),bookingDate varchar(50),imagePath varchar(50));

@@ -1,0 +1,119 @@
+
+.firstHalf{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     width: 450px;
+     height: 400px;
+     padding-left: 50px;
+}
+.firstHalf hr{
+     width: 224px;
+     height: 3px;
+     border-style: none;
+     background-color: black;
+     margin-bottom: 10px;
+}
+.firstHalf  span{
+     font-size: 20px;
+     padding: 5px 40px;
+     margin-bottom: 10px;
+     background-color:  rgb(14, 7, 45);
+     color: wheat;
+}
+
+.firstHalf img{
+     width:220px;
+     height: 250px;
+     display: block;
+     object-fit: cover;
+}
+
+
+.full{
+     display: flex;
+}
+
+.singleLine{
+     display: flex;
+     padding: 10px 20px;
+}
+.fullTable{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+.left{
+     text-align: right;
+     width: 150px;
+     margin-left: 20px;
+}
+.right{
+     text-align: left;
+     width: 300px;
+     margin-left: 20px;
+}
+
+.fullTable span{
+     font-size: 20px;
+     font-weight: bold;
+}
+.fullTable input{
+     height: 20px;
+     width: 240px;
+}
+#description{
+     height: 40px;
+}
+#description,#title{
+     width: 300px;
+}
+
+.add{
+     padding-left: 750px;
+}
+.add .butten{
+     padding: 10px 40px;
+     background-color: rgb(14, 7, 45);
+     color: rgb(255, 255, 255);
+     font-weight: bold;
+     margin-bottom: 10px;
+     margin-left: 48px;
+}
+.add .butten:hover{
+     border-color: white;
+}
+.back{
+     text-align: right;
+     margin-right: 200px;
+}
+
+.back button{
+     border-radius: 5px;
+     padding: 7px 11px;
+     cursor: pointer;
+     font-weight: bold;
+     font-size: 15px;
+     color: rgb(255, 0, 0);
+}
+.selectItem{
+     margin: 20px 0px;
+}
+
+.selectButten{
+     padding: 9px 30px;
+     font-weight: bold;
+     color:rgb(14, 7, 45);
+     font-size: 16px;
+}
+
+.submitButten{
+     margin-left: 20px;
+     padding-top: 10px;
+     padding-bottom: 25px;
+     font-weight: bold;
+     color: white;
+     background-color: rgb(14, 7, 45);
+}

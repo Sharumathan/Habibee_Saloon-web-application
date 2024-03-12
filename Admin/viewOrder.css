@@ -1,0 +1,207 @@
+*{
+     padding: 0;
+     margin: 0;
+     font-family: sans-serif;
+}
+body{
+     background-image: url("images/backround3.jpg");
+     background-size:cover;
+     background-attachment: fixed;
+}
+.menu{
+     background-image:linear-gradient(rgb(16, 19, 68), rgb(26, 64, 121),rgb(16, 19, 68));
+     position: fixed;
+     left: 0;
+     top: 0;
+     bottom: 0;
+     width: 250px;
+     left: -250px;
+     transition: 0.5s;
+     z-index: 100;
+}
+.menu:hover{
+     left: 0;
+}
+.page{
+     
+     transition: 0.5s;
+     
+}
+.logo{
+     display: flex;
+     height: 100px;
+     align-items: center;
+     justify-content: center;
+}
+
+.logo #fullName{
+     font-size: 45px;
+     cursor: pointer;
+}
+.logo #firstName{
+     color: rgb(0, 0, 0);
+     background-color: #ffffff;
+     padding-left: 20px;
+}
+
+.logo #lastName{
+     color:#fff;
+     background-color: rgb(241, 144, 32);
+     padding-right: 20px;
+}
+
+.menuContent{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items:center;
+}
+a{
+     text-decoration: none;
+     font-size: 18px;
+     list-style-type:none;
+     color: wheat;
+}
+li{
+     text-align:left;
+     padding: 8px 49px;
+     list-style-type: none;
+     transition: 0.4s;
+     margin-top: 5px;
+}
+
+li:hover{
+     background-color: rgb(14, 7, 45);
+}
+
+#hideLogo{
+     transition: 0.5s;
+}
+#pageDetails{
+     transition: 0.5s;
+     
+}
+.viewPageDetails span{
+     background-color: rgb(241, 144, 32);
+     color: rgb(255, 255, 255);
+     padding: 5px 20px;
+     cursor: pointer;
+     font-size: 20px;
+     transition: 0.5s;
+}
+
+.viewPageDetails span:hover{
+     background-color:rgb(255, 255, 255);
+     color:rgb(241, 144, 32);
+}
+.header{
+     display: flex;
+     justify-content: space-between;
+     padding: 20px 20px;
+}
+
+.welcomeNote h2{
+     margin-top: 20px;
+     font-size:40px;
+     color: #fff;
+}
+
+#close{
+     color: wheat;
+     margin-left:80px;
+     cursor: pointer; padding: 6px 20px;
+     transition: 0.3s;
+     border-radius: 3px;
+}
+
+#close:hover{
+     background-color: aliceblue;
+     color: #10103b;
+     font-weight: bold;
+}
+
+.orderList .singleOrder .content .image img{
+    height: 180px;
+    width: 180px;
+    object-fit:cover;
+    object-position: center;
+}
+
+.orderList .singleOrder .content .details{
+     display: flex;
+     text-align: left;
+     align-items: center;
+}
+.orderList .singleOrder .content .button{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+
+.orderList .singleOrder .content .button button{
+     padding: 10px 40px;
+     font-size: 15px;
+     font-weight: bold;
+     color: white;
+     background-color: red;
+     border-style: none;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: 0.3s;
+     margin-right: 10px;
+}
+.orderList .singleOrder .button button:hover{
+     background-color: rgb(255, 255, 255);
+     color: red;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.orderList .singleOrder .content{
+     display: flex;
+     justify-content: space-between;
+     padding: 10px 15px;
+
+}
+
+.orderList .singleOrder .content .details h3{
+     line-height: 40px;
+     
+}
+.spanDetails{
+     font-size: 13px;
+}
+
+
+.back{
+     text-align: right;
+     margin-right: 200px;
+     margin-bottom: 50px;
+     margin-top: 50px;
+}
+
+.back button{
+     padding: 4px 11px;
+     cursor: pointer;
+     font-weight: bold;
+     font-size: 15px;
+     color: red;
+}
+
+
+.orderList .singleOrder .content .button .cancel{
+     padding: 10px 14px;
+     border-radius: 550px;
+}
+.orderList{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+.singleOrder{
+     background-color: rgb(255, 255, 255);
+     width: 750px;
+     margin: 10px 0px;
+}
+
+

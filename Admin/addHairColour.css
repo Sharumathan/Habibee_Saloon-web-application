@@ -1,0 +1,114 @@
+.firstHalf{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     width: 400px;
+     height: 400px;
+     padding-left: 50px;
+}
+.firstHalf hr{
+     width: 218px;
+     height: 3px;
+     border-style: none;
+     background-color: black;
+     margin-bottom: 10px;
+}
+.firstHalf  span{
+     font-size: 20px;
+     padding: 5px 35px;
+     margin-bottom: 10px;
+     background-color:  rgb(14, 7, 45);
+     color: wheat;
+}
+
+.firstHalf img{
+     width:218px;
+     height: 250px;
+     display: block;
+     object-fit: cover;
+}
+
+.firstHalf button{
+     margin-top:10px;
+     padding: 5px 20px;
+     background-color: rgb(252, 252, 252);
+     color: rgb(14, 7, 45);
+     font-weight: bold;
+     transition: 0.3s;
+     cursor: pointer;
+}
+.firstHalf button:hover{
+     background-color: rgb(231, 231, 231);
+}
+.full{
+     display: flex;
+}
+
+.singleLine{
+     display: flex;
+     padding: 10px 20px;
+}
+.fullTable{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+.left{
+     text-align: right;
+     width: 150px;
+     margin-left: 20px;
+}
+.right{
+     text-align: left;
+     width: 300px;
+     margin-left: 20px;
+}
+
+.fullTable span{
+     font-size: 20px;
+     font-weight: bold;
+}
+.fullTable input{
+     height: 20px;
+     width: 240px;
+}
+#description{
+     height: 40px;
+}
+#description,#title{
+     width: 300px;
+}
+
+.add{
+     padding-left: 750px;
+}
+.add .butten{
+     padding: 10px 50px;
+     background-color: rgb(14, 7, 45);
+     color: rgb(255, 255, 255);
+     font-weight: bold;
+}
+.add .butten:hover{
+     border-color: white;
+}
+.back{
+     text-align: right;
+     margin-right: 200px;
+}
+
+.back button{
+     padding: 7px 11px;
+     border-radius: 5px;
+     cursor: pointer;
+     font-weight: bold;
+     font-size: 15px;
+     color: red;
+}
+.fileChoose{
+     padding: 15px 20px;
+     font-size: 15px;
+     margin-left: 85px;
+     font-weight: bold;
+}

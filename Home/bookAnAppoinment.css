@@ -1,0 +1,190 @@
+*{
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+}
+body{
+     background-image:url("images/img2.png");
+     background-size:cover;
+}
+.firstWord{
+     color: rgb(0, 0, 0);
+     background-color: #ffffff;
+     padding-left: 20px;
+}
+.lastWord{
+     color:#fff;
+     background-color: rgb(241, 144, 32);
+     padding-right: 20px;
+}
+
+.look{
+     color: rgb(241, 144, 32);
+}
+h1{
+     display:inline-block;
+     margin-left: 10px;
+     font-size: 50px;
+     padding-top: 20px;
+     padding-left: 30px;
+     transition:0.2s;
+}
+nav{
+     flex: 1;
+     text-align:right;
+     padding-top: 25px;
+}
+nav li{
+     display: inline;
+     font-size: 20px;
+}
+nav li a{
+     text-decoration: none;
+     color:#fff;
+     padding-top: 8px;
+     padding-bottom: 8px;
+     padding-right:14px;
+     padding-left: 14PX;
+     transition: 0.4s;
+}
+nav li a:hover{
+     background-color: rgb(241, 144, 32);
+     border-radius: 5px;
+}
+.header{
+     display: flex;
+}
+/* varity of styles second half of home page */
+.types{
+     padding-left: 25px;
+     padding-right: 25px;
+     align-items: center;
+}
+
+.col{
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     
+}
+.col img{
+     width: 250px;
+     height: 370px;
+     object-fit: cover;
+     padding-left: 10px;
+     padding-right: 10px;
+     transition: 0.5s;
+     cursor: pointer;
+}
+
+.col .hairstylist img{
+     border-radius: 30px;
+     height: 300px;
+     width: 300px;
+}
+
+.col img:hover{
+     transform: translateY(-35px);
+}
+.title{
+     text-align: center;
+     margin-top: 40px;
+     color:rgb(255, 255, 255);
+     font-size: 25px;
+}
+
+.underLine{
+     width: 120px;
+     height: 5px;
+     background-color:  rgb(241, 144, 32);
+     border: none;
+     border-radius: 5px;
+     margin-bottom: 40px;
+     margin-top: 10px;
+     display: inline-block;
+     
+}
+
+.grid{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr ;
+     margin: 20px 40px;
+     margin-bottom: 100px;
+     row-gap: 20px;
+     column-gap: 30px;
+}
+.hairstylist{
+     background-color: white;
+     display: flex;
+}
+.hairstylist img{
+     width: 135px;
+     height: 135px;
+     object-fit: cover;
+     object-position: center;
+     margin: 10px 10px;
+     transition: 0.3s;
+     border-radius: 5px;
+}
+
+.hairstylist div{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     text-align: left;
+}
+.hairstylist p{
+     text-align: left;
+     align-items: center;
+     font-size: 13px;
+}
+
+.hairstylist button{
+     background-color: rgb(241, 144, 32);
+     color: white;
+     border-style: none;
+     padding: 4px 10px;
+     margin-top: 15px;
+     cursor: pointer;
+     transition: 0.3s;
+     border-radius: 2px;
+}
+.hairstylist button:hover{
+     background-color: rgb(198, 107, 4);
+}
+#logout a{
+     background-color:  rgb(14, 7, 45);
+     border-radius: 5px;
+     border-style: solid;
+     border-color: white;
+     border-width: 1px;
+     margin-right: 5px;
+}
+
+#logout a:hover{
+     border-color: rgb(255, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

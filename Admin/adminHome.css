@@ -1,0 +1,219 @@
+*{
+     padding: 0;
+     margin: 0;
+     font-family: sans-serif;
+}
+body{
+     background-image: url("images/backround3.jpg");
+}
+.menu{
+     background-image:linear-gradient(rgb(16, 19, 68), rgb(26, 64, 121),rgb(16, 19, 68));
+     position: fixed;
+     left: 0;
+     top: 0;
+     bottom: 0;
+     width: 250px;
+     left: -250px;
+     transition: 0.5s;
+     z-index: 100;
+}
+.menu:hover{
+     left: 0;
+}
+.page{
+     
+     transition: 0.5s;
+     
+}
+.logo{
+     display: flex;
+     height: 100px;
+     align-items: center;
+     justify-content: center;
+}
+
+.logo #fullName{
+     font-size: 45px;
+     cursor: pointer;
+}
+.logo #firstName{
+     color: rgb(0, 0, 0);
+     background-color: #ffffff;
+     padding-left: 20px;
+}
+
+.logo #lastName{
+     color:#fff;
+     background-color: rgb(241, 144, 32);
+     padding-right: 20px;
+}
+
+.menuContent{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items:center;
+}
+a{
+     text-decoration: none;
+     font-size: 18px;
+     list-style-type:none;
+     color: wheat;
+}
+li{
+     text-align:left;
+     padding: 8px 49px;
+     list-style-type: none;
+     transition: 0.4s;
+     margin-top: 5px;
+}
+
+li:hover{
+     background-color: rgb(14, 7, 45);
+}
+
+#hideLogo{
+     transition: 0.5s;
+}
+#pageDetails{
+     transition: 0.5s;
+     
+}
+.viewPageDetails span{
+     background-color: rgb(241, 144, 32);
+     color: rgb(255, 255, 255);
+     padding: 5px 20px;
+     cursor: pointer;
+     font-size: 20px;
+     transition: 0.5s;
+}
+
+.viewPageDetails span:hover{
+     background-color:rgb(255, 255, 255);
+     color:rgb(241, 144, 32);
+}
+.header{
+     display: flex;
+     justify-content: space-between;
+     padding: 20px 20px;
+}
+
+.welcomeNote h2{
+     margin-top: 20px;
+     font-size:40px;
+     color: #fff;
+}
+
+#close{
+     color: wheat;
+     margin-left:80px;
+     cursor: pointer; padding: 6px 20px;
+     transition: 0.3s;
+     border-radius: 3px;
+}
+
+#close:hover{
+     background-color: aliceblue;
+     color: #10103b;
+     font-weight: bold;
+}
+
+.cl{
+     margin-top: 250px;
+}
+
+#viewOrders{
+     font-size:30px;
+     color: wheat;
+     background-color: red;
+     padding: 6px 20px ;
+     transition: 0.5s;
+     cursor: pointer;
+     border-radius: 5px;
+}
+
+#viewOrders:hover{
+     background-color: rgb(255, 255, 255);
+     color: red;
+     font-weight: bold;
+     padding: 6px 40px ;
+}
+.vorders{
+     margin-top: 35px;
+}
+.serviceGroup{
+     display: flex;
+     justify-content: space-between;
+     margin: 50px 130px ;
+}
+
+.service{
+     height: 340px;
+     width: 220px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     transition: 0.3s;
+}
+.service:hover{
+     transform: translateY(-5px);
+}
+.addRemove{
+     display: flex;
+     height: 30px;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.addRemove button{
+     padding: 5px 10px;
+     color: #fff;
+     background-color: #0a0a4d;
+     
+}
+
+.addRemove button:active{
+     background-color: #383f7d;
+     color: #fff;
+}
+.serviceImage{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.serviceImage img{
+     width: 220px;
+     height: 300px;
+     object-fit: cover;
+     object-position: center;
+}
+
+
+.service hr{
+     height: 2px;
+     background-color: rgb(255, 255, 255);
+     border-style: none;
+}
+
+.logout{
+     text-align: center;
+     margin-top: 100px;
+     margin-bottom: 50px;
+
+}
+
+.logout span{
+     font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    color:  #0a0a4d;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-top: 200px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.logout span:active{
+     background-color: #0a0a4d;
+    color: rgb(255, 255, 255);
+}

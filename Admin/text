@@ -1,0 +1,48 @@
+<?php
+	if(isset($_POST['sub']))
+	{
+		$imginfo=pathinfo($_FILES['pro_image']['name']);
+		$id=$_POST['p_id'];
+		$name=$_POST['p_name'];
+		$price=$_POST['pr'];
+		
+		$targetfile="uploads\product_images\\".$id.".".$imginfo['extension'];
+		$img_file=$id.".".$imginfo['extension'];
+		move_uploaded_file($_FILES['pro_image']['tmp_name'],$targetfile);
+		$con=new mysqli("localhost","root","","project");
+		$sql="insert into products(pro_id,pro_name,price,img_name) values('".$id."','".$name."',".$price.",'".$img_file."')";
+		$con->query($sql);
+		$con->close();
+	}
+?>
+
+<html>
+<head>
+<style>
+.active
+{
+	background-color:yellow;
+	color:red;
+}
+</style>
+</head>
+<body>
+<div style="min-height:120px;width:100%;">
+</div>
+<div style="height:400px;width:120px;">
+	<div class="active"><a href="add_prod.php">Add Product</a></div>
+	<div><a href="up_prod.php">Update Product</a></div>
+	<div><a href="del_prod.php">Delete Product</a></div>
+</div>
+<div style="position:absolute;left:200px;top:150px;">
+<form method="post" enctype ="multipart/form-data" action="<?php echo $_SERVER['PHP_SELF'];?>">
+<table><tr><td>Product Id</td><td><input type="text" name="p_id"></td></tr>
+<tr><td>Product Name</td><td><input type="text" name="p_name"></td></tr>
+<tr><td>Price</td><td><input type="text" name="pr"></td></tr>
+<tr><td>Choose Image</td><td><input type="file" name="pro_image"></td></tr>
+<tr><td></td><td><input type="submit" name="sub" value="Add Product"></td></tr>
+</table>
+</form>
+</div>
+</body>
+</html>

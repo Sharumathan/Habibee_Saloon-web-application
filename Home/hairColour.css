@@ -1,0 +1,193 @@
+*{
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+}
+body{
+     background-image: url("images/cosmetic-brush-cloud-pink-powder-dark-background.jpg");
+     background-size: cover;
+}
+.firstWord{
+     color: rgb(0, 0, 0);
+     background-color: #ffffff;
+     padding-left: 20px;
+}
+.lastWord{
+     color:#fff;
+     background-color: rgb(241, 144, 32);
+     padding-right: 20px;
+}
+
+
+h1{
+     display:inline-block;
+     margin-left: 10px;
+     font-size: 50px;
+     padding-top: 20px;
+     padding-left: 30px;
+}
+nav{
+     flex: 1;
+     text-align:right;
+     padding-top: 25px;
+}
+nav li{
+     display: inline;
+     font-size: 20px;
+}
+nav li a{
+     text-decoration: none;
+     color:#fff;
+     padding-top: 8px;
+     padding-bottom: 8px;
+     padding-right:14px;
+     padding-left: 14PX;
+     transition: 0.4s;
+}
+nav li a:hover{
+     background-color: rgb(241, 144, 32);
+     border-radius: 5px;
+}
+.header{
+     display: flex;
+}
+
+
+
+.stylesHeading{
+     display: flex;
+     justify-content: center;
+     color: rgb(255, 255, 255);
+     
+}
+.hairstyleContainer{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 50px 50px;
+}
+
+.hairstyleContainer .singleContainer{
+     display: flex;
+     background: radial-gradient(#fff,#e4a6db);
+     max-height:250px;
+     overflow: hidden;
+     margin: 15px 0px;
+     width: 729px;
+}
+.hairstyleContainer .image{
+     display: flex;
+     max-width: 250px;
+     min-width: 250px;
+     height: 250px;
+}
+.hairstyleContainer .image img{
+     margin: 15px 15px;
+     transition: 0.3s;
+     width: 240px;
+     object-fit: cover;
+     object-position: center;
+}
+.hairstyleContainer .image img:hover{
+     transform: scale(1.03);
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+     border-radius: 3px;
+}
+.hairstyleContainer .singleContainer .details{
+     color: rgb(0, 0, 0);
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;     
+     
+}
+
+.hairstyleContainer .singleContainer .details .para{
+     padding: 20px 20px;
+}
+
+.hairstyleContainer .singleContainer .details h2{
+     padding: 15px 20px;
+}
+.hairstyleContainer .singleContainer .details .buttonCombo{
+     padding: 0px 20px;
+     padding-top:15px;
+}
+.hairstyleContainer .singleContainer .details button{
+     padding: 8px 20px;
+     border-radius: 3px;
+     transition: 0.3s;
+     cursor: pointer;
+}
+.hairstyleContainer .singleContainer .details .buttonCombo .book{
+     background-color: rgb(255, 0, 0);
+     color: white;
+     border-style: none;
+}
+.hairstyleContainer .singleContainer .new{
+     position: absolute;
+}
+.hairstyleContainer .singleContainer .new img{
+     width: 100px;
+     padding-left: 628px;
+}
+.hairstyleContainer .singleContainer .details .buttonCombo .book:hover{
+     background-color: rgb(141, 0, 0);
+}
+.hairstyleContainer .singleContainer .details .buttonCombo .cart{
+     background-color: rgb(241, 144, 32);
+     color: white;
+     border-style: none;
+     transition: 0.3s;
+}
+.hairstyleContainer .singleContainer .details .price{
+     padding-left: 20px;
+     font-size: 20px;
+     font-weight: bold;
+     color: rgb(255, 0, 0);
+}
+
+.hairstyleContainer .singleContainer .details .buttonCombo .cart:hover{
+     background-color: rgb(186, 108, 17);
+}
+
+
+#logout a{
+     background-color:  rgb(14, 7, 45);
+     border-radius: 5px;
+     border-style: solid;
+     border-color: white;
+     border-width: 1px;
+     margin-right: 5px;
+}
+
+#logout a:hover{
+     border-color: rgb(255, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
